@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <header>
+      <div class="topShelf">
+        <button class="replay">Replay Game</button>
+        <p class="range">(Between 1 and 20)</p>
+      </div>
+      <div class="bottomShelf">
+        <h1 class="banner">Guess the secret number to win!</h1>
+        <h2 class="secretNumber">?</h2>
+        <hr />
+      </div>
+    </header>
+    <main>
+      <div class="left">
+        <input type="number" class="userGuess" />
+        <button class="guess">Click Here</button>
+      </div>
+      <div class="right">
+        <h4 class="message">Start guessing...</h4>
+        <h4>Score: <span class="score">20</span></h4>
+        <h4>Highscore: <span class="highScore">0</span></h4>
+      </div>
+    </main>
+  </body>
+</html>

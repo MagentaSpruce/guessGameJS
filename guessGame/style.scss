@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 68.5%;
+  color: aliceblue;
+}
+
+body {
+  background-color: rebeccapurple;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  border: 2px aliceblue solid;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 1rem;
+  background-color: aliceblue;
+  color: rebeccapurple;
+  font-weight: 700;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+header {
+  height: 45vh;
+  min-width: 100%;
+  text-align: center;
+}
+
+.topShelf {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1rem 5rem 1rem;
+}
+
+.bottomShelf {
+  display: grid;
+  grid-gap: 5rem;
+}
+
+.secretNumber {
+  background-color: aliceblue;
+  width: 10rem;
+  height: 10rem;
+  color: rebeccapurple;
+  margin: 0 auto;
+  padding-top: 2.5rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  height: 55vh;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.userGuess {
+  height: 15rem;
+  width: 15rem;
+  margin-top: 10rem;
+  font-size: 5rem;
+  text-align: center;
+  color: rebeccapurple;
+  border: none;
+}
+
+.guess {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  gap: 2rem;
+}
